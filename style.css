@@ -13,7 +13,9 @@
   --misc-color: steelblue;
 
 }
-
+.sty{
+  text-align: center;
+}
 .error
 {
   color: red;
@@ -52,41 +54,8 @@ body {
   margin: 0 auto;
 /*   border: 2px solid red; */
 }
-.banner {
-  background-color: var(--misc-color);
-  padding: 0cm;
-  margin-top: auto;
-  margin-bottom: auto;
-  border-radius: var(--border-radius);
-}
 
-.banner__content {
-  padding: 0%;
-  max-width: 1000px;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
 
-  align-items: center;
-}
-
-.logo {
-  flex-direction: row;
-  padding: var(--padding);
-  image-rendering: auto;
-  size: 2cm;
-  margin: var(--margin-top);
-  margin: var(--margin-bottom);
-}
-.banner__text {
-  flex-grow: 1;
-  line-height: 1;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 0.7cm;
-  text-align: center;
-  flex-direction: var(--big-font-size);
-  padding-bottom: 20px;
-}
 .form-heading {
   text-align: center;
   color: var(--custom-color);
@@ -97,7 +66,6 @@ body {
 .form {
   width: 60%;
   margin: 30px auto;
-  padding: var(--padding);
   /* border: 2px solid white; */
 }
 
@@ -114,7 +82,6 @@ body {
   color: var(--custom-color);
   font-size: var(--medium-font-size);
   margin-bottom: var(--margin-bottom);
-  padding: var(--padding);
   
 }
 
@@ -134,29 +101,6 @@ input:focus{
   outline-color: blue;
 }
 
-select {
-  padding: var(--padding);
-  border-radius: var(--border-radius);
-  border: var(--border);
-  color: var(--custom-color);
-  background-color: white;
-}
-
-.btn-submit {
-  margin-top: var(--margin-top);
-  border: none;
-  padding: 14px;
-  border-radius: var(--border-radius);
-  cursor: pointer;
-  background-color: var(--misc-color);
-  color: white;
-  font-size: var(--medium-font-size);
-  transition: 0.3s;
-}
-
-.btn-submit:hover {
-  background: rgb(44, 106, 156);
-}
 
 
 @media (max-width:840px) {
